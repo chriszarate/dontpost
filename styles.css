@@ -1,0 +1,175 @@
+body {
+	font-family: Georgia, serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #36f;
+	text-decoration-skip-ink: auto;
+}
+
+h1 {
+	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 5rem;
+	letter-spacing: -4px;
+	line-height: 1;
+	margin: 0;
+	text-align: center;
+}
+
+h2,
+h3 {
+	font-family: "Josefin Sans", Helvetica, sans-serif;
+	letter-spacing: -0.5px;
+	margin: 3rem 0 1rem 0;
+}
+
+header {
+	height: 100vh;
+	margin: 0 1rem;
+	position: relative;
+}
+
+h1 > span {
+	background-color: #369;
+	border-bottom: solid 0.5rem #036;
+	border-radius: 1.5rem;
+	color: #fff;
+	display: inline-block;
+	line-height: 1;
+	padding: 1.5rem 2rem 0.5rem 1.5rem;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.intro {
+	font-size: 1.5rem;
+	margin: 2rem auto;
+	max-width: 600px;
+	text-align: center;
+}
+
+.download {
+	display: flex;
+	flex-direction: row;
+	font-family: "Josefin Sans", "Helvetica Neue", Helvetica, sans-serif;
+	justify-content: center;
+	letter-spacing: -0.1rem;
+}
+
+.download a {
+	background-color: #396;
+	border-radius: 0.75rem;
+	color: #dfe;
+	display: block;
+	font-size: 1.5rem;
+	margin: 0 1rem;
+	padding: 0.5rem 1rem 0.25rem 1rem;
+	text-decoration: none;
+}
+
+.download a:hover {
+	color: #fff;
+}
+
+.continue {
+	bottom: 0.5rem;
+	color: #ccc;
+	font-size: 4rem;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+
+.explanation,
+.questions {
+	min-height: 100vh;
+	padding: 5rem 2rem;
+}
+
+.explanation {
+	background-color: #eee;
+}
+
+.explanation p,
+.questions h3,
+.questions p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 35rem;
+	width: 100%;
+}
+
+.button-post {
+	background-color: #fff;
+	border: solid 2px #000;
+	border-radius: 4px;
+	display: inline;
+	margin: 0 1px;
+	padding: 2px 5px;
+}
+
+.button-inline {
+	margin-right: 2px;
+}
+
+.button-dont {
+	background-color: #396;
+	border-color: #396;
+	color: #fff;
+}
+
+.example {
+	border: solid 2px rgba(59, 148, 217, 0.25);
+	height: auto;
+	max-width: 100%;
+}
+
+.back-to-top {
+	margin-top: 4rem;
+	text-align: center;
+	transform: rotate(180deg);
+}
+
+.anchor-link {
+	color: #ccc;
+	font-size: 3rem;
+	text-decoration: none;
+}
+
+::selection {
+	background-color: #9fc;
+}
+
+@media (min-height:780px) {
+	body {
+		font-size: 1.3rem;
+	}
+
+	h1 {
+		font-size: 10rem;
+		letter-spacing: -8px;
+	}
+
+	h1 > span {
+		padding: 2rem 3rem 0.5rem 2rem;
+	}
+
+	.intro {
+		margin: 4rem auto;
+	}
+
+	.download a {
+		font-size: 2rem;
+		padding: 1rem 1.25rem 0.75rem 1.25rem;
+	}
+}
